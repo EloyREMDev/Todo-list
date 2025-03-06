@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="main">
+      <h1 id="nav-title">Lista de tareas</h1>
+        <!-- Formulario -->
+        <form id="form">
+          <div class="form-input-container">
+            <label for="form-input-task">Tarea:</label>
+            <input type="text" id="form-input-task" name="form-input-task" placeholder="Ingrese su tarea aqui"
+              autocomplete="off">
+            <p id="form-error-text">No puede estar vacio</p>
+          </div>
+          <button type="submit" id="form-btn">Crear</button>
+        </form>
+    
+        <!-- Lista -->
+        <ul id="task-list">
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Ir a clases</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item-completed">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text-completed">Hacer las compras en el supermercado</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Ir al gimnasio</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Almuerzo en restaurante con amigos</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Ir al cine en familia para ver el estreno</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Colocar alarmas para despertar temprano</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Revisar e-mail</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Asistir a la reunión de trabajo</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Tomar café en la tarde con colegas</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Ir al banco</p>
+            <button class="task-check-btn">Check</button>
+          </li>
+          <li class="task-item">
+            <button class="task-delete-btn">Eliminar</button>
+            <p class="task-text">Investiga tres celebraciones culturales propias de América Latina, describe su origen y la importancia que tienen en la actualidad. Presenta tus hallazgos en un resumen breve</p>
+            <button class="task-check-btn">Check</button>
+        </ul>
+        <!-- Contadores -->
+        <div id="task-counter">
+          <h2 id="task-total">Total: 11</h2>
+          <h2 id="task-complete">Completadas: 1</h2>
+          <h2 id="task-incomplete">Incompletas: 10</h2>
+        </div>
+      </main>
+</body>
+</html>
+
