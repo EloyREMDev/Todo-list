@@ -78,6 +78,7 @@ body {
 }
 
 #form-error-text {
+  display: none;
   text-align: start;
   color: #be1515;
 }
